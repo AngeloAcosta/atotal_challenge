@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage {
 
-    private By txtUsername = By.id("loginusername");
-    private By txtPassword = By.id("loginpassword");
-    private By btnLogin = By.cssSelector("button[onclick='logIn()']");
-    private By btnLogout = By.id("logout2");
+    private final By txtUsername = By.id("loginusername");
+    private final By txtPassword = By.id("loginpassword");
+    private final By btnLogin = By.cssSelector("button[onclick='logIn()']");
+    private final By btnLogout = By.id("logout2");
 
     public LoginPage() {
         super(driver);

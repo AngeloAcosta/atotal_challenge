@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 
 public class HomePage extends BasePage {
 
-    private By lnkLogin = By.id("login2");
-    private By lnkSignUp = By.id("signin2");
-    private By lnkLoggedUser = By.id("nameofuser");
+    private final By lnkLogin = By.id("login2");
+    private final By lnkSignUp = By.id("signin2");
+    private final By lnkLoggedUser = By.id("nameofuser");
 
     public HomePage() {
         super(driver);
